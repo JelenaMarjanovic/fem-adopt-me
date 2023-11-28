@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+
+# for Mac users
+.DS_Store
+
+coverage/
+.vscode/
+
+package-lock.json
