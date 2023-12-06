@@ -39,6 +39,7 @@ const SearchParams = () => {
           Location
           <input name="location" id="location" placeholder="location" />
         </label>
+
         <label htmlFor="animal">
           Animal
           <select
@@ -57,6 +58,7 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
+
         <label htmlFor="breed">
           Breed
           <select id="breed" disabled={breeds.length === 0} name="breed">
@@ -66,6 +68,7 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
+
         <button>Submit</button>
       </form>
 
